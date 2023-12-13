@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. Device Solutions - Beranda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .search-bar {
+            margin-right: 20px;
+        }
+
+        nav {
+            background-color: #555;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover,
+        nav a.active {
+            background-color: #4CAF50; /* Warna yang berbeda ketika tombol dihover atau aktif */
+            border-radius: 8px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .feature-box {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .feature-box img {
+            width: 48%;
+            border-radius: 8px;
+        }
+
+        .feature-description {
+            width: 48%;
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PT. Device Solutions</h1>
+        <div class="search-bar">
+            <!-- Tambahkan elemen pencarian di sini -->
+            <input type="text" placeholder="Cari...">
+            <button type="submit">Cari</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#" class="active">Beranda</a>
+        <a href="#">Profil Kemiskinan</a>
+        <a href="#">Data dan Statistik</a>
+        <a href="#">Solusi Pemerintah</a>
+        <a href="#">Tentang Kami</a>
+    </nav>
+
+    <main>
+        <div class="feature-box">
+            <!-- Kotak gambar kemiskinan -->
+            <img src="gambar_kemiskinan.jpg" alt="Kemiskinan">
+            
+            <!-- Kotak deskripsi tujuan website -->
+            <div class="feature-description">
+                <h2>Tujuan Website</h2>
+                <p>Deskripsi singkat tentang tujuan dari website ini. Anda dapat menulis tentang misi, visi, atau tujuan khusus yang ingin dicapai oleh PT. Device Solutions melalui website ini.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

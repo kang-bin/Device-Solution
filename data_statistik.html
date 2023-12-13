@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. Device Solutions - Data & Statistik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .search-bar {
+            margin-right: 20px;
+        }
+
+        nav {
+            background-color: #555;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover,
+        nav a.active {
+            background-color: #4CAF50;
+            border-radius: 8px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .data-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .data-container h2 {
+            color: #333;
+        }
+
+        .data-content {
+            margin-top: 20px;
+        }
+
+        .data-content p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PT. Device Solutions</h1>
+        <div class="search-bar">
+            <!-- Tambahkan elemen pencarian di sini -->
+            <input type="text" placeholder="Cari...">
+            <button type="submit">Cari</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Profil Kemiskinan</a>
+        <a href="#" class="active">Data dan Statistik</a>
+        <a href="#">Solusi Pemerintah</a>
+        <a href="#">Tentang Kami</a>
+    </nav>
+
+    <main>
+        <!-- Subhalaman 1: Peta & Data -->
+        <div class="data-container">
+            <h2>Peta & Data Kemiskinan</h2>
+
+            <div class="data-content">
+                <p>Isi dengan informasi peta kemiskinan dan data statistik populasi.</p>
+            </div>
+        </div>
+
+        <!-- Subhalaman 2: Ekonomi -->
+        <div class="data-container">
+            <h2>Data Ekonomi</h2>
+
+            <div class="data-content">
+                <p>Isi dengan informasi pendapatan, tingkat pengangguran, dan tingkat kemiskinan ekonomi.</p>
+            </div>
+        </div>
+
+        <!-- Subhalaman 3: Demo Grafik -->
+        <div class="data-container">
+            <h2>Demo Grafik Statistik</h2>
+
+            <div class="data-content">
+                <p>Isi dengan demo grafik statistik seperti diagram, grafik batang, dll.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
