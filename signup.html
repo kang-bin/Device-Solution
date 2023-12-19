@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>Sign Up</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@
             height: 100vh;
         }
 
-        .login-container {
+        .signup-container {
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
@@ -24,12 +24,12 @@
             text-align: center;
         }
 
-        .login-container h1 {
+        .signup-container h1 {
             margin-bottom: 20px;
             color: #333;
         }
 
-        .login-form input {
+        .signup-form input {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
@@ -38,7 +38,7 @@
             box-sizing: border-box;
         }
 
-        .login-form button {
+        .signup-form button {
             width: 100%;
             padding: 10px;
             background-color: #4caf50;
@@ -48,45 +48,27 @@
             cursor: pointer;
         }
 
-        .login-form button:hover {
+        .signup-form button:hover {
             background-color: #45a049;
-        }
-
-        .forgot-password,
-        .sign-up {
-            margin-top: 20px;
-            color: #333;
-        }
-
-        .forgot-password a,
-        .sign-up a {
-            color: #4caf50;
-            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div class="login-container">
-        <h1>Login</h1>
-        <form class="login-form" onsubmit="login(event)">
+    <div class="signup-container">
+        <h1>Sign Up</h1>
+        <form class="signup-form" onsubmit="signup(event)">
             <input type="text" placeholder="Username" required>
             <input type="password" placeholder="Password" required>
-            <button type="submit">Sign In</button>
+            <button type="submit">Sign Up</button>
         </form>
-        <div class="forgot-password">
-            <a href="lupa_password.html">Forgot Password?</a>
-        </div>
-        <div class="sign-up">
-            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
-        </div>
     </div>
     <script>
-        function login(event) {
+        function signup(event) {
             event.preventDefault(); // Prevent form submission
-      
-            window.location.href = "beranda.html";
+
+            window.location.href = "login.html";
         }
     </script>
-    <script src="login.js"></script>
+    <script src="signup.js"></script>
 </body>
 </html>
